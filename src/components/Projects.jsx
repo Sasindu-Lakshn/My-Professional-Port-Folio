@@ -28,7 +28,7 @@ const projectsData = [
         tech: ["React", "Tailwind", "Framer Motion"],
         category: "frontend",
         github: "https://github.com/",
-        live: "https://your-portfolio.vercel.app", // ✅ YOUR REAL PORTFOLIO LINK
+        live: "https://my-professional-port-folio.vercel.app/", // ✅ YOUR REAL PORTFOLIO LINK
     },
     {
         title: "Weather App (Python + API)",
