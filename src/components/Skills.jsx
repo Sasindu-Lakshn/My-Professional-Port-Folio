@@ -14,7 +14,10 @@ import {
     SiFirebase,
     SiGithub,
     SiVercel,
-    SiApollographql
+    SiApollographql,
+    SiReact,
+    SiNodedotjs,
+    SiExpress
 } from "react-icons/si"
 
 import { FaJava } from "react-icons/fa"
@@ -36,6 +39,8 @@ const skillCategories = [
         bg: "bg-purple-50 dark:bg-purple-900/20",
         skills: [
             { name: "JavaScript", level: 70, icon: <SiJavascript className="text-yellow-500" /> },
+            { name: "Node.js", level: 70, icon: <SiNodedotjs className="text-green-500" /> },
+            { name: "Express.js", level: 65, icon: <SiExpress className="text-gray-500 dark:text-gray-300" /> },
             { name: "Python", level: 50, icon: <SiPython className="text-blue-500" /> },
             { name: "Java", level: 50, icon: <FaJava className="text-red-600" /> },
             { name: "C / C++", level: 50, icon: <SiCplusplus className="text-blue-600" /> },
@@ -50,6 +55,7 @@ const skillCategories = [
         skills: [
             { name: "HTML", level: 90, icon: <SiHtml5 className="text-orange-600" /> },
             { name: "CSS", level: 90, icon: <SiCss3 className="text-blue-600" /> },
+            { name: "React", level: 80, icon: <SiReact className="text-cyan-400" /> },
         ],
     },
     {
